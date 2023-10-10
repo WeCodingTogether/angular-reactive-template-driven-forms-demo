@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: cadetblue;
+  font-size: 2.5rem;
+}
+
+h2,
+h3 {
+  color: #444;
+  font-weight: lighter;
+}
+
+a {
+  cursor: pointer;
+}
+
+nav {
+  margin: 3rem 1rem;
+}
+nav a {
+  padding: 1rem;
+  background-color: dimgray;
+  margin-right: 30px;
+  margin-top: 30px;
+  border-radius: 4px;
+  color: aliceblue;
+}
+
+nav a:hover {
+  color: aliceblue;
+  background-color: darkcyan;
+}
+
+nav a.active {
+  background-color: black;
+  color: aliceblue;
+}
+
+label {
+  /* 独占一行 */
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 1rem;
+  font-size: 15px;
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 1rem;
+  width: 300px;
+  height: 2rem;
+}
+
+button {
+  margin-bottom: 5px;
+  margin-left: 1rem;
+  margin-top: 10px;
+  width: auto;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 15px;
+}
